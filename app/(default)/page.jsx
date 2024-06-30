@@ -9,6 +9,7 @@ import Testimonials from "@/components/testimonials"
 import Cta from "@/components/cta"
 import {Carousel} from "@/components/Carousel"
 import {Carousel2} from "@/components/Carousel2"
+import PricingTabs from "@/components/pricing-tabs"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -31,6 +32,7 @@ export default function Home() {
       <Features01 />
       <Carousel2/>
       <Features03 />
+      <PricingTabs/>
       <Testimonials />
       <Cta />
     </>
